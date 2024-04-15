@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./style.css">
+<title>Formulario de registro - Mi web</title>
+</head>
+<body class="body">
+<div class="div">
+<h1 class="title">Formulario de registro - Mi web</h1>
+<form action="" method="GET">
+
+<h2 class="name">Nombres</h2>
+<input class="input name" type="text" id="nombre" name="nombre" maxlength="50" required><br><br>
+
+<h2 class="apellidos">Apellidos</h2>
+<input class="input" type="text" id="apellidos" name="apellidos" maxlength="50" required><br><br>
+
+<label for="sexo">Sexo:</label><br>
+<input type="radio" id="hombre" name="sexo" value="hombre" required>
+<label for="hombre">Hombre</label><br>
+<input type="radio" id="mujer" name="sexo" value="mujer" required>
+<label for="mujer">Mujer</label><br><br>
+
+<h2 class="email">Correo electronico</h2>
+<input class="input email" type="email" id="correo" name="correo" required><br><br>
+
+<input type="checkbox" id="info" name="info" checked>
+<label for="info">Deseo recibir información sobre novedades y ofertas</label><br><br>
+
+<input type="checkbox" id="condiciones" name="condiciones" required>
+<label for="condiciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br><br>
+
+<input type="submit" value="Enviar">
+    </form>
+</div>
+</body>
+</html>
